@@ -27,7 +27,9 @@ const isDName = function(name){
   return name.startsWith('D')
 }
 
-const 
+const dNames = function(name){
+  return name.filter(isDName)
+}
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
  *********************************/
