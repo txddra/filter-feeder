@@ -41,8 +41,12 @@ const removeTrolls = function(str){
 const isTriStateArea = function(str){
   if( str.endsWith('NY') || str.endsWith('NJ') || str.endsWith('CT')){
     return true
+  }else{
+    return false 
   }
-  else {return false }
+}
+const triStateAreaOnly = function(str){
+  return str.filter(isTriStateArea)
 }
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
