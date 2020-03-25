@@ -33,6 +33,10 @@ const dNames = function(name){
 const containsLowercase = function(str){
   return !str.startsWith(str.toUpperCase())
 }
+
+const removeTrolls = function(str){
+  return str.filter(containsLowercase)
+}
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
  *********************************/
