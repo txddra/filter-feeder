@@ -37,6 +37,13 @@ const containsLowercase = function(str){
 const removeTrolls = function(str){
   return str.filter(containsLowercase)
 }
+
+const isTriStateArea = function(str){
+  if( str.endsWith('NY') || str.endsWith('NJ') || str.endsWith('CT')){
+    return true
+  }
+  else {return false }
+}
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
  *********************************/
