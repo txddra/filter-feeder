@@ -12,8 +12,22 @@ const isEven = function(num){
 }
 
  const onlyEvens = function(num){
-   return num.filter(isEven)
- }
+    return num.filter(isEven)
+}
+
+const isShort = function(str){
+return str.length < 7
+}
+
+const shortNamesOnly = function(str){
+    return str.filter(isShort)
+}
+
+const isDName = function(name){
+  return name.startsWith('D')
+}
+
+const 
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
  *********************************/
