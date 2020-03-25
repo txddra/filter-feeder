@@ -30,6 +30,9 @@ const isDName = function(name){
 const dNames = function(name){
   return name.filter(isDName)
 }
+const containsLowercase = function(str){
+  return !str.startsWith(str.toUpperCase())
+}
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
  *********************************/
