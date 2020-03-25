@@ -1,9 +1,19 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+const isOdd = function(num){
+  return num % 2 !== 0
+}
+const onlyOdds = function(num){
+  return num.filter(isOdd)
+}
+const isEven = function(num){
+  return num % 2 === 0
+}
 
-
-
+ const onlyEvens = function(num){
+   return num.filter(isEven)
+ }
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
  *********************************/
